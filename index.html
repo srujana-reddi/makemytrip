@@ -1,0 +1,79 @@
+
+<html>
+<head>
+   
+    <title>Make My Trip</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">make <span class="highlight">my</span> trip</div>
+        <ul class="nav-links">
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Hotels</a></li>
+            <li><a href="#">Homestays & Villas</a></li>
+            <li><a href="#">Holiday Packages</a></li>
+            <li><a href="#">Trains</a></li>
+            <li><a href="#">Buses</a></li>
+            <li><a href="#">Cabs</a></li>
+            <li><a href="#">Forex Card & Currency</a></li>
+            <li><a href="#">Travel Insurance</a></li>
+        </ul>
+        <div class="user-actions">
+            <a href="#" class="login">Login or Create Account</a>
+            <span>|</span>
+            <a href="#">IN | ENG | INR</a>
+        </div>
+    </nav>
+
+    <section class="booking-section">
+        <div class="booking-form">
+            <div class="trip-type">
+                <label>
+                    <input type="radio" name="trip" checked> One Way
+                </label>
+                <label>
+                    <input type="radio" name="trip"> Round Trip
+                </label>
+                <label>
+                    <input type="radio" name="trip"> Multi City
+                </label>
+            </div>
+            <div class="form-fields">
+                <div class="field">
+                    <label>From</label>
+                    <input type="text" value="Delhi">
+                </div>
+                <div class="field">
+                    <label>To</label>
+                    <input type="text" value="Bengaluru">
+                </div>
+                <div class="field">
+                    <label>Departure</label>
+                    <input type="date" value="2024-06-25">
+                </div>
+                <div class="field">
+                    <label>Return</label>
+                    <input type="date">
+                </div>
+                <div class="field">
+                    <label>Travellers & Class</label>
+                    <input type="text" value="1 Traveller, Economy/Premium Economy">
+                </div>
+            </div>
+            <div class="special-fare">
+                <label>Select a special fare:</label>
+                <div class="fare-options">
+                    <button class="fare active">Regular</button>
+                    <button class="fare">Student</button>
+                    <button class="fare">Senior Citizen</button>
+                    <button class="fare">Armed Forces</button>
+                    <button class="fare">Doctor and Nurses</button>
+                </div>
+            </div>
+            <button class="search-button">SEARCH</button>
+        </div>
+    </section>
+</body>
+</html>
